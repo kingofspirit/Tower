@@ -14,7 +14,7 @@ public class Block {
 	String name;
 	Pane basePane = new Pane();
 	
-	//int a = 0;
+	//int a =
 	
 	Block() {
 		this.isChecked = false;
