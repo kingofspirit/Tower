@@ -18,7 +18,7 @@ public class MainPage extends Application {
 	static GridPane ScreenForGame = new GridPane();
 	static Tower[][] tower = new Tower[12][12];
 	
-	
+	//claim the start
 	public void start(Stage mainStage) {
 		
 		Money.money.setValue(1000);
