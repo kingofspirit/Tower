@@ -8,7 +8,7 @@ import javafx.scene.text.*;
 
 public class Block {
 	
-	
+	// the default block is grass
 	boolean isChecked;
 	String kindOfBlock = "grass";
 	String name;
