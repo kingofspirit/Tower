@@ -115,7 +115,7 @@ class TowerB extends Tower{
 	
 
 	void towerUpdate(Tower tower) {
-		
+		//this is a test
 		tower.level++;
 		tower.valueBuild += 30;
 		tower.valueSell += 24;
