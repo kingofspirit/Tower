@@ -16,7 +16,7 @@ public class MainPage extends Application {
 	static Block[][] gameData = new Block[12][12];
 	static GridPane ScreenForEdit = new GridPane();
 	static GridPane ScreenForGame = new GridPane();
-	static Tower[][] tower = new Tower[12][12];
+	static Tower[][] tower = new Tower[8][8];
 	
 	//claim the start stage in mainpage
 	public void start(Stage mainStage) {
@@ -514,8 +514,8 @@ class errorDialog {
 		});
 		
 		Scene sceneError = new Scene(pane, 225, 80);
-		
-		dialog.setTitle("Error");
+		//Change the alert name
+		dialog.setTitle("Notice");
 		dialog.setResizable(false);
 		dialog.setScene(sceneError);
 		dialog.showAndWait();
